@@ -12,7 +12,7 @@ const Projects = () => {
       <div id="projects-two">
         <div className="individual-project">
           <img id="project-one" className="project-image" src="/img/ProjectExampleOne.jpg" />
-          <br />                                                ./src/assets/img/
+          <br />                                                
           <label htmlFor="project-one">Project One</label>
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
