@@ -7,7 +7,7 @@ const Other = () => {
   return (
     <>
       <div id="other-navigator"></div>
-      <a href="#other-navigator" style={{textDecoration: "none", color: "black",}}>
+      <a href={other ? "#other-navigator" : "#cv-one"} style={{textDecoration: "none", color: "black",}}>
         <div className="cv-section" onClick={toggleSection} >
             <h2 className="other">OTHER SKILLS AND INTERESTS:</h2> 
             <p className="other">{other ? "Show less" : "Show more"}</p>
@@ -23,7 +23,7 @@ const Other = () => {
         <p>Walked 1000 km during 40 days on the <strong>Camino de Santiago de Compostela</strong> Pilgrimage raising over 500 GBP for my selected charities in 2022</p>
         <p>Surfing, tennis and playing guitar</p>
         <img id="surf-pic" src="/img/surfpic.JPG" alt="Surf Pic taken by Pierre Mesnage @pimphotographie" />
-        <p className="other" id="final-showless" onClick={toggleSection}>Show less of Other Skills and Interests</p>
+        <p className="other" id="final-showless" onClick={toggleSection}><a href="#cv-one">Show less of Other Skills and Interests</a></p>
       </div>
     </>
   )

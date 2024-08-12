@@ -8,7 +8,7 @@ const Education = () => {
   return (
     <>
       <div id="education-navigator"></div>
-      <a href="#education-navigator" style={{textDecoration: "none", color: "black",}}>
+      <a href={education ? "#education-navigator" : "#cv-one"} style={{textDecoration: "none", color: "black",}}>
         <div className="cv-section" onClick={toggleSection}>
             <h2 className="education">EDUCATION:</h2> 
             <p className="education">{education ? "Show less" : "Show more"}</p>
@@ -37,7 +37,7 @@ const Education = () => {
           <p>Chemistry A level: A Grade</p>
           <p>Spanish A level: B Grade</p>
         </div>
-        <p className="education" id="final-showless" onClick={toggleSection}>Show less of Education</p>
+        <p className="education" id="final-showless" onClick={toggleSection}><a href="#cv-one">Show less of Education</a></p>
       </div>
     </>
   )

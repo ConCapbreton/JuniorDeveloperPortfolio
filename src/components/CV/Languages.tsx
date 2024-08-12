@@ -8,7 +8,7 @@ const Languages = () => {
   return (
     <>
       <div id="languages-navigator"></div>
-      <a href="#languages-navigator" style={{textDecoration: "none", color: "black",}}>
+      <a href={languages ? "#languages-navigator" : "#cv-one"} style={{textDecoration: "none", color: "black",}}>
         <div className="cv-section" onClick={toggleSection} >
             <h2 className="languages">LANGUAGES:</h2> 
             <p className="languages">{languages ? "Show less" : "Show more"}</p>
@@ -30,7 +30,7 @@ const Languages = () => {
           <Flag country="ES" size={70}/>
           <h3>Spanish: fluent</h3>
         </div>
-        <p className="languages" id="final-showless" onClick={toggleSection}>Show less of Languages</p>
+        <p className="languages" id="final-showless" onClick={toggleSection}><a href="#cv-one">Show less of Languages</a></p>
       </div>
       
     </>

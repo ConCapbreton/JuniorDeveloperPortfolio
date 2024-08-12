@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <>
       <div id="experience-navigator"></div>
-      <a href="#experience-navigator" style={{textDecoration: "none", color: "black",}}>
+      <a href={experience ? "#experience-navigator" : "#cv-one"} style={{textDecoration: "none", color: "black",}}>
         <div className="cv-section" onClick={toggleSection} >
             <h2 className="experience" id="experience">PROFESSIONAL EXPERIENCE:</h2> 
             <p className="experience">{experience ? "Show less" : "Show more"}</p>
@@ -65,7 +65,7 @@ const Experience = () => {
         <h3>Univsersity Graduate Program</h3>
         <h4><a href="https://www.ahkgroup.com/" target="_blank">Alfred H Knight</a> | Prescot, United Kingdom</h4>
         <h4>2010 - 2011</h4>
-        <p className="experience" id="final-showless" onClick={toggleSection}>Show less of Profesional Experience</p>
+        <p className="experience" id="final-showless" onClick={toggleSection}><a href="#cv-one">Show less of Profesional Experience</a></p>
       </div>
     </>
   )
