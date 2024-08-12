@@ -11,7 +11,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div id="projects-two">
         <div className="individual-project">
-          <img id="project-one" className="project-image" src="./public/img/ProjectExampleOne.jpg" />
+          <img id="project-one" className="project-image" src="/img/ProjectExampleOne.jpg" />
           <br />                                                ./src/assets/img/
           <label htmlFor="project-one">Project One</label>
           <div id="tech-icon-labels-holder">
@@ -23,7 +23,7 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <img id="project-two" className="project-image" src="./src/assets/img/ProjectExampleTwo.jpg" />
+          <img id="project-two" className="project-image" src="/img/ProjectExampleTwo.jpg" />
           <br />
           <label htmlFor="project-two">Project Two</label>
           <div id="tech-icon-labels-holder">
@@ -35,7 +35,7 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <img id="project-three" className="project-image" src="./src/assets/img/ProjectExampleThree.jpg" />
+          <img id="project-three" className="project-image" src="/img/ProjectExampleThree.jpg" />
           <br />
           <label htmlFor="project-three">Project Three</label>
           <div id="tech-icon-labels-holder">
