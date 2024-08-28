@@ -46,7 +46,7 @@ const MenuProvider = ({children}: ChildrenType) => {
         display: "flex",
         flexDirection: "column",}
     const menuHide: CSSProperties = {display: "none",}
-    const hamburgerColumnCorretion: CSSProperties = {marginTop: "175px",}
+    const hamburgerColumnCorretion: CSSProperties = {marginTop: "179px",}
     
     
     const [menu, setMenu] = useState<boolean>(window.innerWidth < 1024 ? true : false)

@@ -10,7 +10,6 @@ const Contact = () => {
     <div id="contact-one" onClick={menuOff}>
       <h1>Contact</h1>
       <div id="contact-two">
-
           <div id="contact-left">
             <h2>I'm always available for interesting coding projects and profesional opportunities!</h2>
             <div className="contact-icon-text">
@@ -26,7 +25,6 @@ const Contact = () => {
               <p>Capbreton, France</p>
             </div>
           </div>
-
           <div id="form-coming-soon">
             <p>Form coming soon!</p>
             <div id="contact-right">
