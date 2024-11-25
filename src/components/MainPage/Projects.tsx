@@ -35,14 +35,14 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <img id="project-three" className="project-image" src="/img/ProjectExampleThree.jpg" />
+          <img id="project-three" className="project-image" src="/img/foragers.webp" />
           <br />
           <label htmlFor="project-three">Project Three</label>
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
             <div className="tech-icon-labels"><a><SiTypescript /></a>Typescript</div>
           </div>
-          <p>Coming soon!</p>
+          <p>Coming soon! Foragers, a full stack project using MERN to record the mushroom finds!</p>
           <p>Click the image to visit the site (eventually)!</p>
         </div>
       </div>
