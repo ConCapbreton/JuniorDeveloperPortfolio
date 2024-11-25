@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
             <div className="tech-icon-labels"><a><FaReact /></a>React</div>
           </div>
-          <p>Coming soon! Foragers, a full stack project using MERN to record the mushroom finds!</p>
+          <p>Coming soon! Foragers, a full stack project using MERN to record your mushroom finds!</p>
           <p>Click the image to visit the site (eventually)!</p>
         </div>
       </div>
