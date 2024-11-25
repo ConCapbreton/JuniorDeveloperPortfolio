@@ -1,6 +1,7 @@
-import { FaCss3, FaHtml5, FaReact } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaReact, FaGit, FaNodeJs, FaSass } from "react-icons/fa";
+
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiRedux, SiExpress, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { useMenuContext } from "../../context/MenuContext";
 import { Link } from "react-router-dom";
@@ -20,8 +21,14 @@ const {menuOff} = useMenuContext()
         <div className="tech-icon-labels"><FaCss3 />CSS</div>
         <div className="tech-icon-labels"><IoLogoJavascript />Javascript</div>
         <div className="tech-icon-labels"><SiTypescript />Typescript</div>
-        <div className="tech-icon-labels"><RiTailwindCssFill />Tailwind CSS</div>
         <div className="tech-icon-labels"><FaReact />React</div>
+        <div className="tech-icon-labels"><SiRedux />Redux</div>
+        <div className="tech-icon-labels"><FaNodeJs />Node.js</div>
+        <div className="tech-icon-labels"><SiExpress />Express</div>
+        <div className="tech-icon-labels"><SiMongodb />MongoDB</div>
+        <div className="tech-icon-labels"><FaSass />SASS</div>
+        <div className="tech-icon-labels"><RiTailwindCssFill />Tailwind CSS</div>
+        <div className="tech-icon-labels"><FaGit />Git</div>
       </div>
       <hr></hr>
     </div>
