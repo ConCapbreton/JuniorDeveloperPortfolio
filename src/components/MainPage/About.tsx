@@ -16,12 +16,12 @@ const {menuOff} = useMenuContext()
         <p>I love exploring and creating, I'm a lifelong learner and I am passionate about living in the South West of France!<br /><br />Click here to see my <Link to="CV">CV!</Link> Or see below for my <a href="#projects-one">coding projects!</a></p>
       </div> 
       <div id="tech-icon-labels-holder">
-        <div className="tech-icon-labels"><a><FaHtml5 /></a>HTML</div>
-        <div className="tech-icon-labels"><a><FaCss3 /></a>CSS</div>
-        <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
-        <div className="tech-icon-labels"><a><SiTypescript /></a>Typescript</div>
-        <div className="tech-icon-labels"><a><RiTailwindCssFill /></a>Tailwind CSS</div>
-        <div className="tech-icon-labels"><a><FaReact /></a>React</div>
+        <div className="tech-icon-labels"><FaHtml5 />HTML</div>
+        <div className="tech-icon-labels"><FaCss3 />CSS</div>
+        <div className="tech-icon-labels"><IoLogoJavascript />Javascript</div>
+        <div className="tech-icon-labels"><SiTypescript />Typescript</div>
+        <div className="tech-icon-labels"><RiTailwindCssFill />Tailwind CSS</div>
+        <div className="tech-icon-labels"><FaReact />React</div>
       </div>
       <hr></hr>
     </div>
