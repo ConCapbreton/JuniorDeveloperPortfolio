@@ -22,7 +22,7 @@ const Other = () => {
         <p>Spoke on the panel for “Prevailing themes and new frontiers in the hard commodity sector” at the Exporta Trade and Finance conference in Cape Town in 2013.</p>
         <p>Walked 1000 km during 40 days on the <strong>Camino de Santiago de Compostela</strong> Pilgrimage raising over 500 GBP for my selected charities in 2022</p>
         <p>Surfing, tennis and playing guitar</p>
-        <img id="surf-pic" src="/img/surfpic.JPG" alt="Surf Pic taken by Pierre Mesnage @pimphotographie" />
+        <img id="surf-pic" src="/img/surfpic.webp" alt="Surf Pic taken by Pierre Mesnage @pimphotographie" />
         <p className="other" id="final-showless" onClick={toggleSection}><a href="#cv-one">Show less of Other Skills and Interests</a></p>
       </div>
     </>

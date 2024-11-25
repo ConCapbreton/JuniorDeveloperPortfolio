@@ -19,11 +19,11 @@ const Education = () => {
         <div className="cert-container">
           <h3>Responsive Web Design Certificate</h3>
           <a href="https://www.freecodecamp.org/certification/fccced7bab9-33f9-4e02-bd96-e25a370f7fb6/responsive-web-design" target="_blank">
-          <img id="responsive-web-design" className="coding-certs" src="/img/webdesign.jpeg" alt="Responsive Web Design Certificate from FreeCodeCamp" />
+          <img id="responsive-web-design" className="coding-certs" src="/img/webdesign.webp" alt="Responsive Web Design Certificate from FreeCodeCamp" />
           </a>
           <h3>JavaScript Algorithms and Data Structures (Beta) Certificate</h3>
           <a href="https://www.freecodecamp.org/certification/fccced7bab9-33f9-4e02-bd96-e25a370f7fb6/javascript-algorithms-and-data-structures-v8" target="_blank">
-          <img id="javascript-cert" className="coding-certs" src="/img/javscriptcert.jpeg" alt="JavaScript Algorithms and Data Structures (Beta) Certificate from FreeCodeCamp" />
+          <img id="javascript-cert" className="coding-certs" src="/img/javscriptcert.webp" alt="JavaScript Algorithms and Data Structures (Beta) Certificate from FreeCodeCamp" />
           </a>
         </div>
         <div className="school-container">

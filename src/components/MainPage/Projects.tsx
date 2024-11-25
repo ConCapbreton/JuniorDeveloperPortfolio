@@ -12,7 +12,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div id="projects-two">
       <div className="individual-project">
-          <a href="https://enhancedforecast.netlify.app/" target="_blank"><img id="project-two" className="project-image" src="/img/ProjectExampleTwo.jpg" /></a>
+          <a href="https://enhancedforecast.netlify.app/" target="_blank"><img id="project-two" className="project-image" src="/img/ProjectExampleTwo.webp" /></a>
           <br />
           <label htmlFor="project-two">Enhanced Forecast</label>
           <div id="tech-icon-labels-holder">
@@ -24,7 +24,7 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <a href="https://sextonssurfshack.netlify.app/" target="_blank"><img id="project-one" className="project-image" src="/img/ProjectExampleOne.jpg" /></a>
+          <a href="https://sextonssurfshack.netlify.app/" target="_blank"><img id="project-one" className="project-image" src="/img/ProjectExampleOne.webp" /></a>
           <br />                                                
           <label htmlFor="project-one">Sexton's Surf Shack</label>
           <div id="tech-icon-labels-holder">
@@ -41,7 +41,6 @@ const Projects = () => {
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
             <div className="tech-icon-labels"><a><SiTypescript /></a>Typescript</div>
-            <div className="tech-icon-labels"><a><RiTailwindCssFill /></a>Tailwind CSS</div>
           </div>
           <p>Coming soon!</p>
           <p>Click the image to visit the site (eventually)!</p>
