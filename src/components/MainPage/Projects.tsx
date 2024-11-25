@@ -39,7 +39,7 @@ const Projects = () => {
           <br />
           <label htmlFor="project-three">Project Three</label>
           <div id="tech-icon-labels-holder">
-            <div className="tech-icon-labels"><a><SiTypescript /></a>Typescript</div>
+            <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
             <div className="tech-icon-labels"><a><FaReact /></a>React</div>
           </div>
           <p>Coming soon! Foragers, a full stack project using MERN to record the mushroom finds!</p>
