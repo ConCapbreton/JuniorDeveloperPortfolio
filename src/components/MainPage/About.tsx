@@ -12,7 +12,7 @@ const {menuOff} = useMenuContext()
     <div id="about-div" onClick={menuOff}>
       <h1>Hi, I'm Martin Connor Sexton, <br></br>a Web Developer</h1>
       <div id="image-container">
-        <img src="/img/ProfilePic.webp" alt="Profile Picture"></img>
+        <img src="/img/ProfilePic.webp" alt="Profile Picture of Martin Connor Sexton" width="180px" height="250px"></img>
         <p>I love exploring and creating, I'm a lifelong learner and I am passionate about living in the South West of France!<br /><br />Click here to see my <Link to="CV">CV!</Link> Or see below for my <a href="#projects-one">coding projects!</a></p>
       </div> 
       <div id="tech-icon-labels-holder">

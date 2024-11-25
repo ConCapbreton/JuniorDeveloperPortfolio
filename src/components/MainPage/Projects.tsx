@@ -12,9 +12,8 @@ const Projects = () => {
       <h1>Projects</h1>
       <div id="projects-two">
       <div className="individual-project">
-          <a href="https://enhancedforecast.netlify.app/" target="_blank"><img id="project-two" className="project-image" src="/img/ProjectExampleTwo.webp" /></a>
-          <br />
-          <label htmlFor="project-two">Enhanced Forecast</label>
+          <h2>Enhanced Forecast</h2>
+          <a href="https://enhancedforecast.netlify.app/" target="_blank"><img id="project-two" className="project-image" src="/img/ProjectExampleTwo.webp" alt="Screenshot of the website enhanced-forecast" width="300px" height="180px"/></a>         
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><a><SiTypescript /></a>Typescript</div>
             <div className="tech-icon-labels"><a><FaReact /></a>React</div>
@@ -24,9 +23,8 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <a href="https://sextonssurfshack.netlify.app/" target="_blank"><img id="project-one" className="project-image" src="/img/ProjectExampleOne.webp" /></a>
-          <br />                                                
-          <label htmlFor="project-one">Sexton's Surf Shack</label>
+          <h2>Sexton's Surf Shack</h2>
+          <a href="https://sextonssurfshack.netlify.app/" target="_blank"><img id="project-one" className="project-image" src="/img/ProjectExampleOne.webp" alt="Screenshot of the website Sexton's Surf Shack" width="300px" height="180px"/></a>                                               
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><a><SiTypescript /></a>Typescript</div>
             <div className="tech-icon-labels"><a><FaReact /></a>React</div>
@@ -35,9 +33,8 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <img id="project-three" className="project-image" src="/img/foragers.webp" />
-          <br />
-          <label htmlFor="project-three">Project Three</label>
+          <h2>Project Three</h2>
+          <img id="project-three" className="project-image" src="/img/foragers.webp" alt="Screenshot of the website Foragers" width="300px" height="180px"/>        
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><a><IoLogoJavascript /></a>Javascript</div>
             <div className="tech-icon-labels"><a><FaReact /></a>React</div>
