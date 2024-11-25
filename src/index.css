@@ -226,17 +226,10 @@ hr {
   width: fit-content;
   margin: 0 auto 0 auto;
   display: flex;
-  flex-direction: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
   gap: 10px;
   height: 30px;
-}
-
-.contact-icon-text>p {
-  margin-top: 3px;
-}
-
-.contact-icon-text>a {
-  font-size: 1.5rem;
 }
 
 #contact-right {

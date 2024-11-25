@@ -13,15 +13,15 @@ const Contact = () => {
           <div id="contact-left">
             <h2>I'm always available for interesting coding projects and profesional opportunities!</h2>
             <div className="contact-icon-text">
-              <a><FaPhone /></a>
+              <FaPhone />
               <p>(+33) 0626920566</p>
             </div>
             <div className="contact-icon-text">
-              <a><MdOutlineEmail /></a>
+              <MdOutlineEmail />
               <p>connorsexton@hotmail.com</p>
             </div>
             <div className="contact-icon-text">
-              <a><FaHouse /></a>
+              <FaHouse />
               <p>Capbreton, France</p>
             </div>
           </div>
