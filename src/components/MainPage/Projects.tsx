@@ -1,7 +1,7 @@
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiRedux, SiExpress, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaReact } from "react-icons/fa"; 
+import { FaReact, FaNodeJs } from "react-icons/fa"; 
 import { useMenuContext } from "../../context/MenuContext";
 
 const Projects = () => {
@@ -38,6 +38,10 @@ const Projects = () => {
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><IoLogoJavascript />Javascript</div>
             <div className="tech-icon-labels"><FaReact />React</div>
+            <div className="tech-icon-labels"><SiRedux />Redux</div>
+            <div className="tech-icon-labels"><FaNodeJs />Node.js</div>
+            <div className="tech-icon-labels"><SiExpress />Express</div>
+            <div className="tech-icon-labels"><SiMongodb />MongoDB</div>
           </div>
           <p>Coming soon! Foragers, a full stack project using MERN to record your mushroom finds!</p>
           <p>Click the image to visit the site (eventually)!</p>

@@ -1,5 +1,4 @@
 import { FaCss3, FaHtml5, FaReact, FaGit, FaNodeJs, FaSass } from "react-icons/fa";
-
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript, SiRedux, SiExpress, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
