@@ -33,8 +33,8 @@ const Projects = () => {
           <p>Click the image to visit the site!</p>
         </div>
         <div className="individual-project">
-          <h2>Project Three</h2>
-          <img id="project-three" className="project-image" src="/img/foragers.webp" alt="Screenshot of the website Foragers" width="300px" height="180px"/>        
+          <h2>Foragers</h2>
+          <a href="https://concapbreton.github.io/" target="_blank"><img id="project-three" className="project-image" src="/img/foragers.webp" alt="Screenshot of the website Foragers" width="300px" height="180px"/></a>        
           <div id="tech-icon-labels-holder">
             <div className="tech-icon-labels"><IoLogoJavascript />Javascript</div>
             <div className="tech-icon-labels"><FaReact />React</div>
@@ -44,7 +44,7 @@ const Projects = () => {
             <div className="tech-icon-labels"><SiMongodb />MongoDB</div>
           </div>
           <p>Coming soon! Foragers, a full stack project using MERN to record your mushroom finds!</p>
-          <p>Click the image to visit the site (eventually)!</p>
+          <p>Click the image to visit the (provisional) site, frontend only written in vanilla js</p>
         </div>
       </div>
       <hr id="projects-hr"/>

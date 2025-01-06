@@ -31,25 +31,25 @@ const Contact = () => {
               <form action="submit">
                 <div className="contact-label-input">
                   <label htmlFor="name">Name:</label>
-                  <input id="name" type="text" required placeholder="Your Name"></input>
+                  <input id="name" type="text" placeholder="Your Name" required disabled></input>
                 </div>
                 <div className="contact-label-input">
                   <label htmlFor="email">Email:</label>
-                  <input id="email" type="email" placeholder="Your Email" required></input>
+                  <input id="email" type="email" placeholder="Your Email" required  disabled></input>
                 </div>
                 <div className="contact-label-input">
                   <label htmlFor="phone">Phone:</label>
-                  <input id="phone" type="tel" placeholder="Your Phone Number" required></input>
+                  <input id="phone" type="tel" placeholder="Your Phone Number" required  disabled></input>
                 </div>
                 <div className="contact-label-input">
                   <label htmlFor="subject">Subject:</label>
-                  <input id="subject" type="text" placeholder="Reason for contacting"></input>
+                  <input id="subject" type="text" placeholder="Reason for contacting"  disabled></input>
                 </div>             
                 <div className="contact-label-input">
                 <label id="message-label" htmlFor="message">Message:</label>
-                <textarea id="message" placeholder="Your Message" rows={6} cols={50}></textarea>  
+                <textarea id="message" placeholder="Your Message" rows={6} cols={50} disabled></textarea>  
                 </div>          
-                <button id="form-submit-button">Submit</button>        
+                <input id="form-submit-button" type="submit" value="submit" disabled/>        
               </form>
           </div>
         </div>
